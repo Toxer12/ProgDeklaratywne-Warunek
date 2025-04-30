@@ -1,0 +1,22 @@
+/*uzycie predykatu cut w sytuacji gdy logika problemu wymaga
+ * by zapobiec w pewnych przypadkach mozliwosci poszukiwania
+ * rozwiazan alternatywnych */
+
+f0(X,Y):-between(3,5,X),
+    between(X,6,Y).
+f0(7,7).
+
+f1(X,Y):-!,
+    between(3,5,X),
+    between(X,6,Y).
+f1(7,7).
+
+f2(X,Y):-between(1,3,X),
+    !,
+    between(X,4,Y).
+f2(5,5).
+
+f3(X,Y):-between(3,5,X),
+    between(X,6,Y),
+    !.
+f3(7,7).
