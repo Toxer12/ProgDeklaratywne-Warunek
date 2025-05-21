@@ -1,1 +1,35 @@
 https://enzomind.com/files/uwm/wyklady/ProgDeklaratywne/lab/lab1.pdf
+
+Temat:
+Program dla budowlancow
+
+ile materialu
+
+np. pietro 20 m^2
+wymiar 4 na 5
+(4*2,5)*2+(5*2,5)*2 wymiary scian
+(4*5)*(1*1+ilosc pieter)= wymiary podlogi sufitu
+wymiary scian+sufitu=pelny wymiar
+
+ile betonu na metr kwadratowy cena np. 40 zl metr kwadratowy
+
+pelny wymiar*40zl = cena betonu
+
+farba na sciany np:10zl za metr
+
+wymiaryscian razy 10zl = cena za farbe
+
+panale do podlogi np:50 zl za metr
+
+(wymiary podlogi sufitu - 4*5)*50zl=cena za panele
+
+Dachowki np:100 zl za metr
+
+4*5*100 = cena za dachowki
+
+czas budowy jedengo pietra np: 1 dzien (schniecie betonu)
+ilosc pieter * 1 dzien = stawianie pokoi
+ilosc pieter * 3 godziny = malowanie scian
+ilosc pieter * 1 godzina = kladzenie paneli
+
+funkcja ktora wypisuje wszystkie powyzsze statystyki
